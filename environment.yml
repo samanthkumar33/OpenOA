@@ -1,0 +1,19 @@
+name: openoa-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - statsmodels
+  - shapely
+  - pyproj
+  - pyyaml
+  - attrs
+  - tabulate
+  - ipython
+  - pip
+  - pip:
+      - openoa
